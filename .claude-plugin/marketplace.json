@@ -1,0 +1,17 @@
+{
+  "name": "governed-skills-demo-marketplace",
+  "owner": {
+    "name": "Ashley Johnson"
+  },
+  "metadata": {
+    "description": "Synthetic agent skills for demonstrating governed distribution through Unity Catalog."
+  },
+  "plugins": [
+    {
+      "name": "production-pipeline-review",
+      "source": "./plugins/production-pipeline-review",
+      "description": "Review pipeline code against a small set of fictional production standards.",
+      "version": "0.1.0"
+    }
+  ]
+}
