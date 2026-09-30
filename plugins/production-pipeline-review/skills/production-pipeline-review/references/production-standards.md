@@ -1,6 +1,6 @@
 # Production pipeline standards
 
-Standards version: 1.0
+Standards version: 2.0
 
 These are fictional organizational standards created for the governed-skills demonstration. They are not universal Databricks requirements.
 
@@ -37,3 +37,9 @@ The published table definition must declare:
 - The team responsible for the table.
 
 Pass when both values are present in the pipeline definition or metadata declared alongside it.
+
+## PR-005: Enforce the source contract
+
+Production telemetry pipelines must declare the source-contract version they expect. Records with unexpected fields or incompatible type changes must be routed to quarantine rather than accepted into the published table.
+
+Pass when the pipeline identifies the expected source-contract version and sends both unexpected fields and incompatible type changes to a quarantine destination.
