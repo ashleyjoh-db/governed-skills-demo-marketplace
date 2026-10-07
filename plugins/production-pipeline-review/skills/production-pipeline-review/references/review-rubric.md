@@ -8,7 +8,7 @@ Use these results:
 - `Unknown`: the supplied material does not contain enough evidence to decide.
 - `Pass`: the supplied code clearly satisfies the rule.
 
-When the user asks for violations only, report `Fail` and `Unknown` results and omit passing rules.
+When the user asks for violations only, report `Fail` results and omit passing rules. Also report any `Unknown` results because missing evidence prevents a `Ready` conclusion, but do not describe them as violations.
 
 Use this format:
 

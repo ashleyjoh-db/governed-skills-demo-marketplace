@@ -4,14 +4,14 @@
     "name": "Ashley Johnson"
   },
   "metadata": {
-    "description": "Synthetic agent skills for demonstrating governed distribution through Unity Catalog."
+    "description": "Synthetic agent skills for demonstrating governed publication to Unity Catalog and retrieval through Unity Gateway."
   },
   "plugins": [
     {
       "name": "production-pipeline-review",
       "source": "./plugins/production-pipeline-review",
       "description": "Review pipeline code against a small set of fictional production standards.",
-      "version": "0.2.0"
+      "version": "0.2.1"
     }
   ]
 }

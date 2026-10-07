@@ -1,8 +1,8 @@
 # Governed skills demo marketplace
 
-A small, synthetic plugin marketplace for testing how Git-authored agent skills can be synchronized to Unity Catalog and consumed through Unity Gateway.
+A small, synthetic plugin marketplace for testing how Git-authored agent skills can be published to Unity Catalog and consumed through Unity Gateway.
 
-The repository deliberately contains one skill, `production-pipeline-review`. It reviews a fixed factory-telemetry pipeline against a short set of fictional production standards. The example is intentionally simple because the focus is skill publication, governance, discovery, and updates rather than pipeline implementation.
+The repository deliberately contains one skill, `production-pipeline-review`. It provides a coding agent with the instructions and fictional production standards needed to review a fixed factory-telemetry pipeline. The example is intentionally simple because the focus is skill publication, governance, discovery, and updates rather than pipeline implementation.
 
 ## Repository layout
 
